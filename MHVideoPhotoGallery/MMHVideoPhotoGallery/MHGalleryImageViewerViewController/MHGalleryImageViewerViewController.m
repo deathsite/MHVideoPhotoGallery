@@ -716,7 +716,7 @@
                 }
                 
                 if (progressY > 0.35 || velocityY >700) {
-                    MHStatusBar().alpha =1;
+                    MHStatusBar().alpha =0;
                     [self.interactiveTransition finishInteractiveTransition];
                 }else {
                     [self setNeedsStatusBarAppearanceUpdate];
